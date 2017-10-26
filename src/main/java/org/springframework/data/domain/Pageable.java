@@ -39,7 +39,7 @@ public interface Pageable {
 	/**
 	 * Returns the offset to be taken according to the underlying page and page size.
 	 * 
-	 * @return the offset to be taken
+	 * @return the offset to be taken  > 偏移量
 	 */
 	int getOffset();
 
